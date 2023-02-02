@@ -1,0 +1,7 @@
+<p>user-list works!</p>
+
+<div>
+    <ul>
+        <li *ngFor="let list of userList"><a [routerLink]="'/detail/'+list.id">{{list.name}}</a></li>
+    </ul>
+</div>
